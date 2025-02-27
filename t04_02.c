@@ -6,8 +6,8 @@
 
 int main() {
     char b[21];
-    
-    printf("Masukkan Icarus Message =");
+
+    printf("");
     scanf ("%20[^\n]", b);
 
     int panjangascii = strlen(b);
