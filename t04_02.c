@@ -1,10 +1,23 @@
-// NIM - Name
-// NIM - Name
+// 12S24025 - Paula Gevriella Tambunan
+// 12S24032 - Angga B. P. Sianipar
 
 #include <stdio.h>
+#include <string.h>
 
-int main(int _argv, char **_argc) {
-  // codes
+int main() {
+    char b[21];
+    
+    printf("Masukkan Icarus Message =");
+    scanf ("%20[^\n]", b);
 
-  return 0;
+    int panjangascii = strlen(b);
+
+    for (int a = 0; a < panjangascii; a++) {
+
+        printf("%03d", b[a]);
+
+    }
+
+    printf("\n");
+    return 0;
 }

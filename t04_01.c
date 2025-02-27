@@ -1,10 +1,28 @@
-// NIM - Name
-// NIM - Name
+// 12S24025 - Paula Gevriella Tambunan
+// 12S24032 - Angga B. P. Sianipar
 
 #include <stdio.h>
+#include <string.h>
 
-int main(int _argv, char **_argc) {
-  // codes
+int main() {
+    char p[9999]; // String untuk menyimpan input
 
-  return 0;
+    int a, Nilaiasci;
+
+    printf("Masukkan bilangan ASCII tanpa spasi: ");
+
+    scanf("%s", p); // Membaca input sebagai string
+
+    printf("Hasil konversi: ");
+
+    for (a = 0; a < strlen(p); a += 3) { // Membaca setiap 3 digit
+       
+      sscanf(&p[a], "%3d", &Nilaiasci); // Ambil 3 digit dan ubah ke integer
+      
+      printf("%c", (char)Nilaiasci); // Cetak karakter
+    }
+
+    printf("\n");
+    
+    return 0;
 }
