@@ -9,11 +9,11 @@ int main() {
 
     int a, Nilaiasci;
 
-    printf("Masukkan bilangan ASCII tanpa spasi: ");
+    printf("");
 
     scanf("%s", p); // Membaca input sebagai string
 
-    printf("Hasil konversi: ");
+    printf("\n");
 
     for (a = 0; a < strlen(p); a += 3) { // Membaca setiap 3 digit
        
