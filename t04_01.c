@@ -9,11 +9,7 @@ int main() {
 
     int a, Nilaiasci;
 
-    printf("");
-
     scanf("%s", p); // Membaca input sebagai string
-
-    printf("\n");
 
     for (a = 0; a < strlen(p); a += 3) { // Membaca setiap 3 digit
        

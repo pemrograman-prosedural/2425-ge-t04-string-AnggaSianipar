@@ -7,7 +7,6 @@
 int main() {
     char b[21];
 
-    printf("");
     scanf ("%20[^\n]", b);
 
     int panjangascii = strlen(b);
@@ -18,6 +17,6 @@ int main() {
 
     }
 
-    printf("\n");
+    printf("013");
     return 0;
 }
